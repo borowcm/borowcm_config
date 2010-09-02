@@ -1,0 +1,8 @@
+-- Basic time division.
+TIMEBASE        = NS
+
+-- Directory where the sim files will be written to.
+WORK            > DEFAULT
+DEFAULT         : /home/borowcm/synopsys/work
+
+-- Specific Libraries if any.

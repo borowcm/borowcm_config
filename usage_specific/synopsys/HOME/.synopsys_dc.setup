@@ -1,0 +1,18 @@
+#### SYNOPSYS DC SETUP FILE _ GLOBAL SETUP ####
+
+set designer "Mike Borowczak"
+
+set company "University of Cincinnati" 
+
+set view_background "black"
+
+define_design_lib work -path /home/borowcm/synopsys/work
+
+set search_path [list . /opt-shared/CAD/Synopsys/D-2010.03-SP1/Synthesis/libraries/syn]
+
+###setting libraries information
+set link_library class.db
+set target_library class.db
+
+
+
