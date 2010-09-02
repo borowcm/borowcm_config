@@ -1,0 +1,18 @@
+#### SYNOPSYS DC SETUP FILE _ GLOBAL SETUP ####
+
+set designer "Vijay Sundaresan"
+
+set company "University of Cincinnati" 
+
+set view_background "black"
+
+define_design_lib work -path /home/vsundare/synopsys/work
+
+set search_path [list . /opt-SunOS-5.7/CAD/Synopsys/libraries/syn]
+
+###setting libraries information
+set link_library class.db
+set target_library class.db
+
+
+

@@ -1,0 +1,128 @@
+* NOTE *: Read the INSTALL.EMACS file first!
+
+Useful Keybindings:
+
+C-x 2 : split buffer horizontally 
+
+C-s : goto emacs shell. 
+
+C-x o : switch to other buffer
+
+C-c j : goto line
+
+C-x b : show all buffers. type _any_ string of characters of the
+        buffer you want to switch to and press Return.
+
+Meta-/ : complete partial string. Very useful! Saves a lot of typing.
+
+         eg: type first few characters of a word previously typed in
+         one of your buffers. Keep pressing Meta-/ until it finds the
+         word.  'Meta' key : On Sun keyboards, its the diamond
+         symbol. On IBM PC keyboard, its the Alt key.
+ 
+C-c u : show matching braces. 
+
+C-c d : goto matching brace. 
+
+Sample Usage of above commands:
+
+      After editing a buffer(a C++ program), split the buffer
+      horizontally (C-x 2) and go to the shell (C-s) to compile
+      it. Switch to the program buffer (C-x o) or go to any other
+      buffer which has the error (C-x b) to correct compilations
+      errors. Go to the erroroneous line (C-c j).
+       
+C-c n : place the current line at top of the buffer. Useful in shell
+        buffer, its like type "clear" in an xterm.
+
+C-x spacebar : set mark
+
+/**** Rectangle Commands  ****/
+C-x r r : copy rectangle to register. First you have "set mark" (C-x
+          spacebar) for coordinate (left,top) then move the cursor to
+          the coordinate (right,bottom). Then type C-x r r to save the
+          rectangle defined by the above coordinates to a
+          register. 
+
+C-x r d : delete rectangle 
+
+C-x r i or C-x g : Will prompt you for a register and places its
+                   contents.
+
+Uses of Rectangle commands:
+
+1. if you have 4 columns of results in a file but want to plot 2
+   columns (X-Y/2D plot) at a time. Save 2 columns (C-x r r), open a 
+   new buffer and paste the 2 columns (C-x r i/C-x g). Give the new 
+   file as input to 'gnuplot'.
+
+2. If you have a sequence of long commands to type. Type once and save each
+   command to a register and retrieve. 
+
+/**** Text Buffers ****/
+
+C-x r x : copy buffer of text to a register. The contents can be retrieved
+          with C-x g or C-x r i.
+
+/**** Automatic Inserts  ****/
+
+C-c P : Insert Perl header. Highly recommended. The first line invokes
+        the perl interpreter.
+
+C-c L : Insert a (default) Latex preamble and empty document body.
+
+C-c H : Insert a #ifndef-#endif block. A must for C/C++ header files.
+
+C-c C : Insert C++ Copyright header.
+
+Programming Modes Commands
+__________________________
+
+Latex:
+
+C-c c : Compile. Press spacebar for choice between calling Latex (run
+        latex on file), View (view using xdvi), Print (to a printer),
+        File (print to a PS file), Bibtex (calling bibtex). Check
+        'latex-settings.el' for customizations.
+
+Bibtex:
+
+C-c o : Make alternate entries permanent by removing the "OPT" prefix.
+
+You can use the emacs menu bar to select the entry type (conference
+proceedings, journal article etc) or M-x bibtex-<spacebar> will give
+you the list of entry types.
+
+Misc Commands
+_____________
+
+M-x count-words-region/buffer: For region, set the mark then type this
+			       command. Useful for papers with word
+  			       limits.
+
+ssh:
+
+M-x ssh RET <machine_name> : ssh to a machine, usually to compile on
+			     it.
+
+NOTE: When prompted for a password, type C-c v then type your 
+password. This will hide your password as you type it and send it to
+the ssh process.
+
+setnu:
+
+M-x setnu: Its sometimes useful to see the lines numbers alongside
+           your text like the ":set (no)nu" command in vi. Its a
+           toggle function.
+
+
+Abbrev Commands
+_______________
+
+If you want my list of cool abbreviations copy the following file:
+
+cp ~rradhakr/.abbrev_defs ~
+
+The abbreviations are only available when "Abbrev" mode is on.
+
+C-c o : is a toggle function which switches on/off the "Abbrev" mode. 

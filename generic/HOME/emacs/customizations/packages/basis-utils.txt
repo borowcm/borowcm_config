@@ -1,0 +1,46 @@
+Basis Emacs Utilities
+
+  ------------------------------------------------------------------------
+
+Maintaining Copyright Blocks
+
+Command: basis-insert-std-copyright
+     This command inserts the standard Basis copyright block at the current
+     point in the buffer. It also inserts a Doxygen file comment block (and
+     hence requires that `doxygen.el' be available.
+
+Dealing with Guarded Include Files
+
+Command: basis-insert-include-file filename
+     This command prompts for a filename and inserts a guarded include
+     directive including that file at the current point.
+
+Command: basis-insert-include-file-guards
+     This command inserts include guards around the line containing the
+     point, if that point is on a line containing a #include directive.
+
+Command: basis-insert-include-file-guards-in-region start end
+     This command inserts include guards around all #include directives in
+     the current region.
+
+     basis-insert-include-file-guards-in-region does not check for already
+     guarded directives. This is an important future direction.
+
+Function: bt-guard-macro-from-filename filename
+     bt-guard-macro-from-filename generates a guard macro name from
+     filename, which must be string.
+
+     (bt-guard-macro-from-filename "bt_types.h")
+         => "__BT_TYPES_H__"
+
+Constant: bt-include-directive-regexp
+     This constant contains the regular expression used to detect #include
+     directives. By default it recognizes local ("") and system (<>)
+     includes. Filenames can contain any combination of capital and
+     lower-case roman letters, numerals, period, or underscore, followed by
+     ".h".
+
+  ------------------------------------------------------------------------
+
+This document was generated on 10 July 2000 using the texi2html translator
+version 1.51.

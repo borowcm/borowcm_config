@@ -1,0 +1,25 @@
+;; Local Key maps
+
+;; load source files related to current project
+(define-key global-map "\C-cl" 'load-project) 
+
+(define-key global-map "\C-cp" 'my-switch-to-papaya) 
+(define-key global-map "\C-ch" 'my-switch-to-olympus) 
+(define-key global-map "\C-cn" 'line-to-top-of-window)
+(define-key global-map "\C-cm" 'my-quietly-read-abbrev-file)
+(define-key global-map "\C-co" 'abbrev-mode)
+(define-key global-map "\C-c\C-s" 'dirs)
+(define-key global-map "\C-cs" 'shell)
+(define-key global-map "\C-cv" 'send-invisible)
+(define-key global-map "\C-cw" 'compare-windows)
+(define-key global-map "\C-xz" 'repeat-complex-command)
+(define-key global-map "\C-cj" 'goto-line)
+(define-key global-map [(control ?x) (control ?m)] 'compile)
+(define-key global-map [(control button3)] 'popup-buffer-menu)
+(define-key global-map "\C-xT" 'my-toggle-menubar)
+(define-key global-map "\C-xR" 'my-toggle-toolbar)
+(define-key global-map "\C-xrd" 'delete-rectangle)
+(define-key global-map  "\C-cr" 'revert-buffer)
+(define-key global-map "\C-cd" 'go-matching-paren)
+(define-key global-map "\C-cu" 'show-matching-paren)
+(define-key global-map "\C-cy" 'insert-vhdl-file-header)

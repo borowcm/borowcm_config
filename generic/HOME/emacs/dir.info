@@ -1,0 +1,423 @@
+-*- Text -*-
+This file was generated automatically by the gen-dir-node script.
+This version was generated on Thu Sep 17 13:21:47 EDT 1998
+by rradhakr@honeydew.ececs.uc.edu for /local/packages/gnu/info
+
+This is the file /usr/local/share/info/dir, which contains the topmost node 
+of the Info hierarchy.  The first time you invoke Info you start off
+looking at that node, which is (dir)Top.
+
+File: dir	Node: Top	This is the top of the INFO tree
+  This (the Directory node) gives a menu of major topics. 
+  Typing "d" returns here, "q" exits, "?" lists all INFO commands, "h" 
+  gives a primer for first-timers, "mTexinfo<Return>" visits Texinfo topic,
+  etc.
+  Or click mouse button 2 on a menu item or cross reference to select it.
+  --- PLEASE ADD DOCUMENTATION TO THIS TREE. (See INFO topic first.) ---
+
+* Menu: The list of major topics begins on the next line.
+
+
+* Autoconf: (autoconf).         Create source code configuration scripts.
+* bash: (bash.info).
+* bison: (bison.info).
+* ccmode: (ccmode).
+* configuration: (cfg-paper.info).	Some theory on configuring source.
+* cl: (cl).
+* cl: (cl.info).
+* configure: (configure.info).	Cygnus configure.
+* cpio: (cpio).                 Making tape (or disk) archives.
+* cpp: (cpp.info).
+* cvs: (cvs.info).
+* cvsclient: (cvsclient.info).
+* dc: (dc.info).
+* diff: (diff.info).
+* dir.bak: (dir.bak).
+* dir.old: (dir.old).
+* dired-x: (dired-x).
+* ediff: (ediff).
+* emacs: (emacs).
+* File utilities: (fileutils).  GNU file utilities.
+* chgrp: (fileutils)chgrp invocation.           Change file groups.
+* chown: (fileutils)chown invocation.           Change file owners/groups.
+* chmod: (fileutils)chmod invocation.           Change file permissions.
+* cp: (fileutils)cp invocation.                 Copy files.
+* dd: (fileutils)dd invocation.                 Copy and convert a file.
+* df: (fileutils)df invocation.                 Report filesystem disk usage.
+* dir: (fileutils)dir invocation.               List directories briefly.
+* dircolors: (fileutils)dircolors invocation.   Color setup for ls.
+* du: (fileutils)du invocation.                 Report on disk usage.
+* install: (fileutils)install invocation.       Copy and change attributes.
+* ln: (fileutils)ln invocation.                 Make links between files.
+* ls: (fileutils)ls invocation.                 List directory contents.
+* mkdir: (fileutils)mkdir invocation.           Create directories.
+* mkfifo: (fileutils)mkfifo invocation.         Create FIFOs: (named pipes).
+* mknod: (fileutils)mknod invocation.           Create special files.
+* mv: (fileutils)mv invocation.                 Rename files.
+* rm: (fileutils)rm invocation.                 Remove files.
+* rmdir: (fileutils)rmdir invocation.           Remove empty directories.
+* sync: (fileutils)sync invocation.             Synchronize memory and disk.
+* touch: (fileutils)touch invocation.           Change file timestamps.
+* vdir: (fileutils)vdir invocation.             List directories verbosely.
+* Finding Files: (find).        Listing and operating on files
+                                that match certain criteria.
+* forms: (forms).
+* Gawk: (gawk.info).           A Text Scanning and Processing Language.
+* gcc: (gcc.info).
+* Gdb: (gdb).                   The GNU debugger.
+* gdbm: (gdbm.info).
+* gnuplot: (gnuplot.info).
+* gnus: (gnus).
+* gzip: (gzip.info).
+* ID database: (id-utils).              Identifier database utilities.
+* mkid: (id-utils)mkid invocation.      Creating an ID database.
+* lid: (id-utils)lid invocation.        Matching words and patterns.
+* fid: (id-utils)fid invocation.        Listing a file's tokens.
+* fnid: (id-utils)fnid invocation.      Looking up file names.
+* xtokid: (id-utils)xtokid invocation.  Testing mkid scanners.
+* indent: (indent.info).
+* info: (info).
+* info-stnd: (info-stnd.info).
+* info: (info.info).
+* ispell: (ispell).
+* ispell: (ispell.info).
+* Libg++: (libg++).		The g++ library.
+* Libg++: (libg++).		The g++ library.
+* m4: (m4).			A powerful macro processor.
+* make: (make.info).
+* makeinfo: (makeinfo.info).
+* message: (message).
+* mh-e: (mh-e).
+* Mtools: (mtools).        Mtools: utilities to access DOS disks in Unix
+* other: (other).
+* remsync: (remsync.info).
+* sc: (sc).
+* sc: (sc.info).
+* screen: (screen.info).
+* Shell utilities: (sh-utils).		GNU shell utilities.
+* basename: (sh-utils)basename invocation.	Strip directory and suffix.
+* date: (sh-utils)date invocation.		Print/set system date and time.
+* dirname: (sh-utils)dirname invocation.	Strip non-directory suffix.
+* echo: (sh-utils)echo invocation.		Print a line of text.
+* env: (sh-utils)env invocation.		Modify the environment.
+* expr: (sh-utils)expr invocation.		Evaluate expressions.
+* false: (sh-utils)false invocation.		Do nothing, unsuccessfully.
+* groups: (sh-utils)groups invocation.		Print group names a user is in.
+* hostname: (sh-utils)hostname invocation.	Print or set system name.
+* id: (sh-utils)id invocation.			Print real/effective uid/gid.
+* logname: (sh-utils)logname invocation.	Print current login name.
+* nice: (sh-utils)nice invocation.		Modify scheduling priority.
+* pathchk: (sh-utils)pathchk invocation.	Check file name portability.
+* printenv: (sh-utils)printenv invocation.	Print environment variables.
+* printf: (sh-utils)printf invocation.	        Format and print data.
+* pwd: (sh-utils)pwd invocation.	        Print working directory.
+* sleep: (sh-utils)sleep invocation.	        Delay for a specified time.
+* stty: (sh-utils)stty invocation.	        Print/change terminal settings.
+* su: (sh-utils)su invocation.	                Modify user and group id.
+* tee: (sh-utils)tee invocation.	        Redirect to multiple files.
+* test: (sh-utils)test invocation.	        File/string tests.
+* true: (sh-utils)true invocation.	        Do nothing, successfully.
+* tty: (sh-utils)tty invocation.	        Print terminal name.
+* uname: (sh-utils)uname invocation.	        Print system information.
+* users: (sh-utils)users invocation.	        Print current user names.
+* who: (sh-utils)who invocation.	        Print who is logged in.
+* whoami: (sh-utils)whoami invocation.		Print effective user id.
+* yes: (sh-utils)yes invocation.		Print a string indefinitely.
+* Shar utilities: (sharutils).          GNU shar utilities.
+* mail-files: (sharutils)mail-files invocation. Send files to remote site.
+* mailshar: (sharutils)mailshar invocation.     Make and send a shell archive.
+* remsync: (sharutils)remsync invocation.       Synchronize remote files.
+* shar: (sharutils)shar invocation.             Make a shell archive.
+* unshar: (sharutils)unshar invocation.         Explode a shell archive.
+* uudecode: (sharutils)uudecode invocation.     Restore file from 7-bits.
+* uuencode: (sharutils)uuencode invocation.     Force binary file to 7-bits.
+* Standards: (standards).        GNU coding standards.
+* tar: (tar).			Making tape (or disk) archives.
+* texi: (texi.info).
+* texinfo: (texinfo).
+* texinfo: (texinfo.info).
+* Text utilities: (textutils).          GNU text utilities.
+* cat: (textutils)cat invocation.               Concatenate and write files.
+* cksum: (textutils)cksum invocation.           Print POSIX CRC checksum.
+* comm: (textutils)comm invocation.             Compare sorted files by line.
+* csplit: (textutils)csplit invocation.         Split by context.
+* cut: (textutils)cut invocation.               Print selected parts of lines.
+* expand: (textutils)expand invocation.         Convert tabs to spaces.
+* fmt: (textutils)fmt invocation.               Reformat paragraph text.
+* fold: (textutils)fold invocation.             Wrap long input lines.
+* head: (textutils)head invocation.             Output the first part of files.
+* join: (textutils)join invocation.             Join lines on a common field.
+* md5sum: (textutils)md5sum invocation.         Print or check message-digests.
+* nl: (textutils)nl invocation.                 Number lines and write files.
+* od: (textutils)od invocation.                 Dump files in octal, etc.
+* paste: (textutils)paste invocation.           Merge lines of files.
+* pr: (textutils)pr invocation.                 Paginate or columnate files.
+* sort: (textutils)sort invocation.             Sort text files.
+* split: (textutils)split invocation.           Split into fixed-size pieces.
+* sum: (textutils)sum invocation.               Print traditional checksum.
+* tac: (textutils)tac invocation.               Reverse files.
+* tail: (textutils)tail invocation.             Output the last part of files.
+* tr: (textutils)tr invocation.                 Translate characters.
+* unexpand: (textutils)unexpand invocation.     Convert spaces to tabs.
+* uniq: (textutils)uniq invocation.             Uniqify files.
+* wc: (textutils)wc invocation.                 Byte, word, and line counts.
+* time: (time.info).
+* vip: (vip).
+* viper: (viper).
+-*- Text -*-
+This file was generated automatically by the gen-dir-node script.
+This version was generated on Sat Mar  6 01:04:29 EST 1999
+by rradhakr@pecan.ececs.uc.edu for /common/LaTeX2E/info
+
+This is the file /usr/local/share/info/dir, which contains the topmost node 
+of the Info hierarchy.  The first time you invoke Info you start off
+looking at that node, which is (dir)Top.
+
+File: dir	Node: Top	This is the top of the INFO tree
+  This (the Directory node) gives a menu of major topics. 
+  Typing "d" returns here, "q" exits, "?" lists all INFO commands, "h" 
+  gives a primer for first-timers, "mTexinfo<Return>" visits Texinfo topic,
+  etc.
+  Or click mouse button 2 on a menu item or cross reference to select it.
+  --- PLEASE ADD DOCUMENTATION TO THIS TREE. (See INFO topic first.) ---
+
+* Menu: The list of major topics begins on the next line.
+
+
+* README: (README).
+* DVIps: (dvips).	 	DVI-to-PostScript translator.
+* Naming TeX fonts: (fontname). Filenames for TeX fonts.
+* Kpathsea: (kpathsea).		File lookup along search paths.
+* latex: (latex).
+* localdir: (localdir).
+* makeinfo: (makeinfo).         Convert Texinfo source to Info or plain ASCII.
+* Texinfo: (texinfo).           The GNU documentation format.
+* install-info: (texinfo)Invoking install-info. Updating info/dir entries.
+* texi2dvi: (texinfo)Format with texi2dvi.      Printing Texinfo documentation.
+* texindex: (texinfo)Format with tex/texindex.  Sorting Texinfo index files.
+-*- Text -*-
+This file was generated automatically by the gen-dir-node script.
+This version was generated on Tue Sep 21 11:36:40 EDT 1999
+by rradhakr@papaya.ececs.uc.edu for /home/ddel/work/rajesh/auctex-9.9p/info
+
+This is the file /usr/local/share/info/dir, which contains the topmost node 
+of the Info hierarchy.  The first time you invoke Info you start off
+looking at that node, which is (dir)Top.
+
+File: dir	Node: Top	This is the top of the INFO tree
+  This (the Directory node) gives a menu of major topics. 
+  Typing "d" returns here, "q" exits, "?" lists all INFO commands, "h" 
+  gives a primer for first-timers, "mTexinfo<Return>" visits Texinfo topic,
+  etc.
+  Or click mouse button 2 on a menu item or cross reference to select it.
+  --- PLEASE ADD DOCUMENTATION TO THIS TREE. (See INFO topic first.) ---
+
+* Menu: The list of major topics begins on the next line.
+
+
+* auctex: (auctex).
+-*- Text -*-
+This file was generated automatically by the gen-dir-node script.
+This version was generated on Mon Oct 18 17:10:07 EDT 1999
+by rradhakr@papaya.ececs.uc.edu for /opt/gnu/info
+
+This is the file /usr/local/share/info/dir, which contains the topmost node 
+of the Info hierarchy.  The first time you invoke Info you start off
+looking at that node, which is (dir)Top.
+
+File: dir	Node: Top	This is the top of the INFO tree
+  This (the Directory node) gives a menu of major topics. 
+  Typing "d" returns here, "q" exits, "?" lists all INFO commands, "h" 
+  gives a primer for first-timers, "mTexinfo<Return>" visits Texinfo topic,
+  etc.
+  Or click mouse button 2 on a menu item or cross reference to select it.
+  --- PLEASE ADD DOCUMENTATION TO THIS TREE. (See INFO topic first.) ---
+
+* Menu: The list of major topics begins on the next line.
+
+
+* Autoconf: (autoconf).         Create source code configuration scripts.
+* automake: (automake).		Making Makefile.in's
+* Bash: (bash).                     The GNU Bourne-Again SHell.
+* bison: (bison.info).
+* CC mode: (ccmode).	The GNU Emacs mode for editing C, C++, Objective-C
+			  and Java code.
+* CL: (cl).		Partial Common Lisp support for Emacs Lisp.
+* cpio: (cpio).                 Making tape (or disk) archives.
+* cpp: (cpp.info).
+* customize: (customize).
+* CVS: (cvs).          Concurrent Versions System
+* cvsclient: (cvsclient.info).
+* dc: (dc.info).
+* diff: (diff.info).
+* Dired-X: (dired-x).   Dired Extra Features.
+* Ediff: (ediff).       A visual interface for comparing and merging programs.
+* Emacs: (emacs).	The extensible self-documenting text editor.
+* File utilities: (fileutils).  GNU file utilities.
+* chgrp: (fileutils)chgrp invocation.           Change file groups.
+* chown: (fileutils)chown invocation.           Change file owners/groups.
+* chmod: (fileutils)chmod invocation.           Change file permissions.
+* cp: (fileutils)cp invocation.                 Copy files.
+* dd: (fileutils)dd invocation.                 Copy and convert a file.
+* df: (fileutils)df invocation.                 Report filesystem disk usage.
+* dir: (fileutils)dir invocation.               List directories briefly.
+* dircolors: (fileutils)dircolors invocation.   Color setup for ls.
+* du: (fileutils)du invocation.                 Report on disk usage.
+* install: (fileutils)install invocation.       Copy and change attributes.
+* ln: (fileutils)ln invocation.                 Make links between files.
+* ls: (fileutils)ls invocation.                 List directory contents.
+* mkdir: (fileutils)mkdir invocation.           Create directories.
+* mkfifo: (fileutils)mkfifo invocation.         Create FIFOs (named pipes).
+* mknod: (fileutils)mknod invocation.           Create special files.
+* mv: (fileutils)mv invocation.                 Rename files.
+* rm: (fileutils)rm invocation.                 Remove files.
+* rmdir: (fileutils)rmdir invocation.           Remove empty directories.
+* sync: (fileutils)sync invocation.             Synchronize memory and disk.
+* touch: (fileutils)touch invocation.           Change file timestamps.
+* vdir: (fileutils)vdir invocation.             List directories verbosely.
+* Finding Files: (find).        Listing and operating on files
+                                that match certain criteria.
+* Forms: (forms).	Emacs package for editing data bases
+			  by filling in forms.
+* gcc: (gcc.info).
+* Gdb: (gdb).                     The GNU debugger.
+* Gdb-Internals: (gdbint).	The GNU debugger's internals.
+* gdbm: (gdbm.info).
+* Gnus: (gnus).		The news reader Gnus.
+* History: (history).       The GNU history library API
+* info: (info).
+* m4: (m4).			A powerful macro processor.
+* Make: (make.info).               The GNU make utility.
+* Message: (message).	Mail and news composition mode that goes with Gnus.
+* MH-E: (mh-e).		Emacs interface to the MH mail system.
+* Readline: (readline).       The GNU readline library API
+* reftex: (reftex).
+* remsync: (remsync.info).
+* SC: (sc).		Supercite lets you cite parts of messages you're
+			  replying to, in flexible ways.
+* Shell utilities: (sh-utils).          GNU shell utilities.
+* basename: (sh-utils)basename invocation.      Strip directory and suffix.
+* chroot: (sh-utils)chroot invocation.          Specify the root directory.
+* date: (sh-utils)date invocation.              Print/set system date and time.
+* dirname: (sh-utils)dirname invocation.        Strip non-directory suffix.
+* echo: (sh-utils)echo invocation.              Print a line of text.
+* env: (sh-utils)env invocation.                Modify the environment.
+* expr: (sh-utils)expr invocation.              Evaluate expressions.
+* factor: (sh-utils)factor invocation.          Print prime factors
+* false: (sh-utils)false invocation.            Do nothing, unsuccessfully.
+* groups: (sh-utils)groups invocation.          Print group names a user is in.
+* hostname: (sh-utils)hostname invocation.      Print or set system name.
+* id: (sh-utils)id invocation.                  Print real/effective uid/gid.
+* logname: (sh-utils)logname invocation.        Print current login name.
+* nice: (sh-utils)nice invocation.              Modify scheduling priority.
+* nohup: (sh-utils)nohup invocation.            Immunize to hangups.
+* pathchk: (sh-utils)pathchk invocation.        Check file name portability.
+* printenv: (sh-utils)printenv invocation.      Print environment variables.
+* printf: (sh-utils)printf invocation.          Format and print data.
+* pwd: (sh-utils)pwd invocation.                Print working directory.
+* seq: (sh-utils)seq invocation.                Print numeric sequences
+* sleep: (sh-utils)sleep invocation.            Delay for a specified time.
+* stty: (sh-utils)stty invocation.              Print/change terminal settings.
+* su: (sh-utils)su invocation.                  Modify user and group id.
+* tee: (sh-utils)tee invocation.                Redirect to multiple files.
+* test: (sh-utils)test invocation.              File/string tests.
+* true: (sh-utils)true invocation.              Do nothing, successfully.
+* tty: (sh-utils)tty invocation.                Print terminal name.
+* uname: (sh-utils)uname invocation.            Print system information.
+* users: (sh-utils)users invocation.            Print current user names.
+* who: (sh-utils)who invocation.                Print who is logged in.
+* whoami: (sh-utils)whoami invocation.          Print effective user id.
+* yes: (sh-utils)yes invocation.                Print a string indefinitely.
+* Shar utilities: (sharutils).          GNU shar utilities.
+* mail-files: (sharutils)mail-files invocation. Send files to remote site.
+* mailshar: (sharutils)mailshar invocation.     Make and send a shell archive.
+* remsync: (sharutils)remsync invocation.       Synchronize remote files.
+* shar: (sharutils)shar invocation.             Make a shell archive.
+* unshar: (sharutils)unshar invocation.         Explode a shell archive.
+* uudecode: (sharutils)uudecode invocation.     Restore file from 7-bits.
+* uuencode: (sharutils)uuencode invocation.     Force binary file to 7-bits.
+* Stabs: (stabs).                 The "stabs" debugging information format.
+* Standards: (standards).        GNU coding standards.
+* VIP: (vip).		An older VI-emulation for Emacs.
+* VIPER: (viper).       The newest Emacs VI-emulation mode.
+                          (also, A VI Plan for Emacs Rescue
+                           or the VI PERil.)
+* widget: (widget).
+* GCL Doc: (gcl-si.info).	GNU Common Lisp specific Documentation.
+* GCL TK Doc: (gcl-tk.info).	TK window GCL interface.
+* GCL Ansi Doc: (gcl.info).  Ansi Common Lisp Specification.
+-*- Text -*-
+This file was generated automatically by /home/rradhakr/emacs/gen-dir-node.
+This version was generated on Wed Jul 12 10:07:34 EDT 2000
+by rradhakr@papaya.ececs.uc.edu for /opt/teTeX/info
+$Id: gen-dir-node,v 1.4 1998/08/11 21:41:15 karl Exp $
+This is the file .../info/dir, which contains the topmost node of the
+Info hierarchy.  The first time you invoke Info you start off
+looking at that node, which is (dir)Top.
+
+File: dir	Node: Top	This is the top of the INFO tree
+
+  This (the Directory node) gives a menu of major topics. 
+  Typing "q" exits, "?" lists all Info commands, "d" returns here,
+  "h" gives a primer for first-timers,
+  "mEmacs<Return>" visits the Emacs topic, etc.
+
+  In Emacs, you can click mouse button 2 on a menu item or cross reference
+  to select it.
+
+* Menu: The list of major topics begins on the next line.
+
+TeX
+* DVI-to-Postscript: (dvips).        Translating TeX DVI files to PostScript.
+* afm2tfm: (dvips)Invoking afm2tfm.  Making Type 1 fonts available to TeX.
+* dvips: (dvips)Invoking Dvips.      DVI-to-PostScript translator.
+* Kpathsea: (kpathsea).                       File lookup along search paths.
+* kpsewhich: (kpathsea)Invoking kpsewhich.    TeX file searching.
+* mktexmf: (kpathsea)mktex scripts.           MF source generation.
+* mktexpk: (kpathsea)mktex scripts.           PK bitmap generation.
+* mktextex: (kpathsea)mktex scripts.          TeX source generation.
+* mktextfm: (kpathsea)mktex scripts.          TeX font metric generation.
+* mktexlsr: (kpathsea)Filename database.      Update ls-R.
+* LaTeX2e: (latex).                  LaTeXe help 1.6.
+* Web2c: (web2c).                    TeX, Metafont, and companion programs.
+* bibtex: (web2c)bibtex invocation.             Maintaining bibliographies.
+* dmp: (web2c)dmp invocation.                   Troff->MPX (MetaPost pictures).
+* dvicopy: (web2c)dvicopy invocation.           Virtual font expansion
+* dvitomp: (web2c)dvitomp invocation.           DVI to MPX (MetaPost pictures).
+* dvitype: (web2c)dvitype invocation.           DVI to human-readable text.
+* gftodvi: (web2c)gftodvi invocation.           Generic font proofsheets.
+* gftopk: (web2c)gftopk invocation.             Generic to packed fonts.
+* gftype: (web2c)gftype invocation.             GF to human-readable text.
+* inimf: (web2c)inimf invocation.               Initial Metafont.
+* inimpost: (web2c)inimpost invocation.         Initial MetaPost.
+* initex: (web2c)initex invocation.             Initial TeX.
+* makempx: (web2c)makempx invocation.           MetaPost label typesetting.
+* mf: (web2c)mf invocation.                     Creating typeface families.
+* mft: (web2c)mft invocation.                   Prettyprinting Metafont source.
+* mltex: (web2c)MLTeX.                          Multi-lingual TeX.
+* mpost: (web2c)mpost invocation.               Creating technical diagrams.
+* mpto: (web2c)mpto invocation.                 MetaPost label extraction.
+* newer: (web2c)newer invocation.               Compare modification times.
+* patgen: (web2c)patgen invocation.             Creating hyphenation patterns.
+* pktogf: (web2c)pktogf invocation.             Packed to generic fonts.
+* pktype: (web2c)pktype invocation.             PK to human-readable text.
+* pltotf: (web2c)pltotf invocation.             Property list to TFM.
+* pooltype: (web2c)pooltype invocation.         Display WEB pool files.
+* tangle: (web2c)tangle invocation.             WEB to Pascal.
+* tex: (web2c)tex invocation.                   Typesetting.
+* tftopl: (web2c)tftopl invocation.             TFM -> property list.
+* vftovp: (web2c)vftovp invocation.             Virtual font -> virtual pl.
+* virmf: (web2c)virmf invocation.               Virgin Metafont.
+* virmpost: (web2c)virmpost invocation.         Virgin MetaPost.
+* virtex: (web2c)virtex invocation.             Virgin TeX.
+* vptovf: (web2c)vptovf invocation.             Virtual pl -> virtual font.
+* weave: (web2c)weave invocation.               WEB to TeX.
+
+Texinfo documentation system
+* info program: (info-stnd).    Standalone Info-reading program.
+* Info: (info).                 Documentation browsing system.
+* Texinfo: (texinfo).           The GNU documentation format.
+* install-info: (texinfo)Invoking install-info. Updating info/dir entries.
+* texi2dvi: (texinfo)Format with texi2dvi.      Printing Texinfo documentation.
+* texindex: (texinfo)Format with tex/texindex.  Sorting Texinfo index files.
+* makeinfo: (texinfo)makeinfo Preferred.        Translate Texinfo source.

@@ -1,0 +1,102 @@
+Doxygen Utilities
+
+  ------------------------------------------------------------------------
+
+Creating Function Comments
+
+Command: doxygen-insert-comment
+     doxygen-insert-comment inserts a full (Qt-style) comment block at
+     point, placing the cursor after the brief comment line.
+
+     //!
+     /*!
+
+     */
+
+Command: doxygen-insert-function-comment
+     doxygen-insert-function-comment inserts a full (Qt-style) comment block
+     for the function whose declaration is on the line with point. The
+     comment block includes \param lines for each function argument, and if
+     the function has a return value, a \return line is also included. The
+     cursor is placed after the brief comment line.
+
+     For example, running doxygen-insert-function-comment on the function
+
+     int add(int a, int b)
+     {
+         return a + b;
+     }
+
+     generates the comment block
+
+     //!
+     /*!
+       <long-description>
+
+       \param a
+       \param b
+       \return <ReturnValue>
+     */
+
+Command: doxygen-insert-member-group-region start end
+     doxygen-insert-member-group-region adds the appropriate comments to
+     make the current region a member group. For example, given a region
+     containing
+
+         foo = 1,
+         bar,
+         baz
+
+     (part of an enum), doxygen-insert-member-group-region generates
+
+     //@{
+         foo = 1,
+         bar,
+         baz
+     //@}
+
+Command: doxygen-insert-compound-comment
+     doxygen-insert-compound-comment inserts a right margin Doxygen
+     "compound" comment (indented using the current mode's value of
+     comment-column) on the current line. For example, using this command on
+     the definition of foo in
+
+     enum {
+         foo = 1
+     }
+
+     yields
+
+     enum {
+         foo = 1                                  //!<
+     };
+
+     with the point immediately after the comment.
+
+Creating File-level Comments
+
+Command: doxygen-insert-file-comment
+     doxygen-insert-file-comment inserts a comment-block containing
+     information about the current file. The filename, author, and date are
+     generated based on current values on the system.
+
+     /*!
+       \file   foo.c
+       \brief
+
+       <long description>
+
+       \author Tom Emerson
+       \date   2000-07-10
+     */
+
+User-Settable Options
+
+User Option: doxygen-date-format
+     doxygen-date-format is a format-time-string format string used to
+     format dates used with the Doxygen \date directive.
+
+  ------------------------------------------------------------------------
+
+This document was generated on 10 July 2000 using the texi2html translator
+version 1.51.

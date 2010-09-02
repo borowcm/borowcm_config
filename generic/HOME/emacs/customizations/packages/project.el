@@ -1,0 +1,28 @@
+(defun load-project ()
+  "Load files concerned with the current project into buffers. 
+   Needless to say, I will edit this function for every new
+   project."
+  (interactive)
+  ;; the files that belong to my current project. 
+  (find-file "~/research/synthesis/svift/src/BaseGraph.cc")
+  (find-file "~/research/synthesis/svift/incl/BaseGraph.hh")
+  (find-file "~/research/synthesis/svift/src/BGraph.cc")
+  (find-file "~/research/synthesis/svift/incl/BGraph.hh")
+  (find-file "~/research/synthesis/svift/src/BGraphNode.cc")
+  (find-file "~/research/synthesis/svift/incl/BGraphNode.hh")
+  (find-file "~/research/synthesis/svift/src/BaseNode.cc")
+  (find-file "~/research/synthesis/svift/incl/BaseNode.hh")
+  (find-file "~/research/synthesis/svift/src/Controller.cc")
+  (find-file "~/research/synthesis/svift/incl/Controller.hh")
+  (find-file "~/research/synthesis/svift/src/DataPath.cc")
+  (find-file "~/research/synthesis/svift/incl/DataPath.hh")
+  (find-file "~/research/synthesis/svift/src/DataPathNode.cc")
+  (find-file "~/research/synthesis/svift/incl/DataPathNode.hh")
+  (find-file "~/research/synthesis/svift/src/Main.cc")
+  (find-file "~/research/synthesis/svift/incl/SynthesisEngine.hh")
+  (find-file "~/research/synthesis/svift/src/SynthesisEngine.cc")
+  (find-file "~/research/synthesis/svift/transform/incl/RTS.hh")
+  (find-file "~/research/synthesis/svift/transform/src/RTS.cc")
+  (find-file "~/research/synthesis/svift/script_gen/incl/ScriptGenerator.hh")
+  (find-file "~/research/synthesis/svift/script_gen/src/ScriptGenerator.cc")
+)
